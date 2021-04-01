@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-01T06:33:51.630Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="z69Pi0ylb_QNJ_TVErPA" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-01T06:35:22.109Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="qzVqPKG-h5oBeFfRu6qN" version="14.4.2" type="github">
   <diagram id="46hc7RXiXwBe8O0Xdy1l" name="Page-1">
     <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -135,15 +135,15 @@
             <mxPoint x="982" y="550" as="sourcePoint" />
             <mxPoint x="965" y="660" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1070" y="560" />
-              <mxPoint x="1130" y="600" />
-              <mxPoint x="1060" y="640" />
+              <mxPoint x="1020" y="560" />
+              <mxPoint x="1060" y="600" />
+              <mxPoint x="1030" y="630" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xDc6BYjFzf-1uLflGxI8-29" value="get image" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Verdana;" vertex="1" connectable="0" parent="xDc6BYjFzf-1uLflGxI8-28">
           <mxGeometry x="-0.6942" y="-12" relative="1" as="geometry">
-            <mxPoint x="80.14000000000001" y="22.230000000000004" as="offset" />
+            <mxPoint x="40.34000000000002" y="20.310000000000002" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xDc6BYjFzf-1uLflGxI8-31" value="cv.wait()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;fontSize=14;fontColor=#CC0000;" vertex="1" parent="1">
@@ -185,7 +185,7 @@
         <mxCell id="xDc6BYjFzf-1uLflGxI8-49" value="list of params&lt;br&gt;list of analyzer" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Verdana;fontSize=14;" vertex="1" parent="xDc6BYjFzf-1uLflGxI8-47">
           <mxGeometry x="-10" y="120" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="xDc6BYjFzf-1uLflGxI8-55" value="Decoder" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="xDc6BYjFzf-1uLflGxI8-55" value="Metadata&lt;br&gt;extractor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="385" y="350" width="100" height="600" as="geometry" />
         </mxCell>
         <mxCell id="xDc6BYjFzf-1uLflGxI8-56" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="xDc6BYjFzf-1uLflGxI8-55">
