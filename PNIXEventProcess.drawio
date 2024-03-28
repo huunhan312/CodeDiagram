@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T07:43:09.662Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="aXQ8Hy96DGozZ_iMJYHs" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T07:55:35.208Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="lkvBvNBOxpPXVBCMzCBy" version="24.0.7" type="github">
   <diagram name="TopDiagram" id="JaP5Xpi4m5t3rpltjDpk">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -88,16 +88,13 @@
         <mxCell id="E9GXVAglDECMBYCGCCBM-28" value="EventScan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="220" y="860" width="75.19" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CMJ5GBcLMeupm0neetiK-1" value="extern &quot;C&quot; PNIX_API void export_function(std::string);" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="380" y="590" width="320" height="40" as="geometry" />
+        <mxCell id="CMJ5GBcLMeupm0neetiK-2" value="extern &quot;C&quot; PNIX_API void export_function(std::string);&#xa;&#xa;extern &quot;C&quot; void export_function(std::string jsonData)&#xa;{&#xa;    pintel::DEFINE_SERVICE_NAME(VehicleCounting)::get()&#xa;    .push(std::make_shared&lt;pintel::metadata_item&gt;(pintel::metadata_item{ jsonData }));&#xa;}" style="text;whiteSpace=wrap;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="360" y="570" width="470" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="CMJ5GBcLMeupm0neetiK-2" value="extern &quot;C&quot; void export_function(std::string jsonData)&#xa;{&#xa;    pintel::DEFINE_SERVICE_NAME(VehicleCounting)::get()&#xa;    .push(std::make_shared&lt;pintel::metadata_item&gt;(pintel::metadata_item{ jsonData }));&#xa;}" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="380" y="620" width="470" height="110" as="geometry" />
+        <mxCell id="CMJ5GBcLMeupm0neetiK-3" value="On Windows: &#xa;Using LoadLibraryA and GetProcAddress to get function/entry address.&#xa;&#xa;On Linux:&#xa;Using dlopen and dlsym to get function/entry address&#xa; " style="text;whiteSpace=wrap;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="360" y="730" width="320" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="CMJ5GBcLMeupm0neetiK-3" value="On Windows: &#xa;Using LoadLibraryA and GetProcAddress to get function/entry address.&#xa;&#xa;On Linux:&#xa;Using dlopen and dlsym to get function/entry address&#xa; " style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="380" y="716" width="320" height="104" as="geometry" />
-        </mxCell>
-        <mxCell id="CMJ5GBcLMeupm0neetiK-5" value="Push(FeedData)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="CMJ5GBcLMeupm0neetiK-5" value="push(FeedData)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="110" y="800" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CMJ5GBcLMeupm0neetiK-6" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
