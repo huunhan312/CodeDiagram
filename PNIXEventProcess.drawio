@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-04T05:47:40.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Fa4ruNinLOlFzsdYPT2o" version="24.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-04T05:49:04.588Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="yo1eW02-MOM27YcEu7mM" version="24.2.2" type="github" pages="2">
   <diagram name="TopDiagram" id="JaP5Xpi4m5t3rpltjDpk">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -167,28 +167,28 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ml8Hjj0U2Rhjz_bPokfZ-1" value="Event Process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="200" width="184.62" height="80" as="geometry" />
+          <mxGeometry x="330" y="140" width="610" height="360" as="geometry" />
         </mxCell>
         <mxCell id="ml8Hjj0U2Rhjz_bPokfZ-2" value="ROI Config Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="200" width="184.62" height="80" as="geometry" />
+          <mxGeometry x="440" y="220" width="184.62" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ml8Hjj0U2Rhjz_bPokfZ-3" value="EvMaker Module 1&lt;div&gt;(dll)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="210" width="184.62" height="80" as="geometry" />
+          <mxGeometry x="1030" y="190" width="184.62" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ml8Hjj0U2Rhjz_bPokfZ-4" value="EvMaker Module 2&lt;div&gt;(dll)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="340" width="184.62" height="80" as="geometry" />
+          <mxGeometry x="1030" y="280" width="184.62" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ml8Hjj0U2Rhjz_bPokfZ-5" value="Event Sender" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="350" width="184.62" height="80" as="geometry" />
+          <mxGeometry x="690" y="380" width="184.62" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ml8Hjj0U2Rhjz_bPokfZ-6" value="Module Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="80" width="184.62" height="80" as="geometry" />
+          <mxGeometry x="690" y="220" width="184.62" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ml8Hjj0U2Rhjz_bPokfZ-7" value="EvMaker Module 3&lt;div&gt;(dll)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="460" width="184.62" height="80" as="geometry" />
+          <mxGeometry x="1030" y="380" width="184.62" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ml8Hjj0U2Rhjz_bPokfZ-8" value="MQTT Receiver &amp;amp; Sender" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="360" width="184.62" height="80" as="geometry" />
+          <mxGeometry x="440" y="370" width="184.62" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
