@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T06:30:05.959Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="zsPmnMgC3V9cLlCvfxCX" version="24.2.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-15T06:30:56.366Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="qyrRqmOmYFW7rR_F5By0" version="24.2.5" type="github" pages="2">
   <diagram name="TopDiagram" id="JaP5Xpi4m5t3rpltjDpk">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -301,7 +301,7 @@
           <mxGeometry y="60" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xJsZIdjVa3uzwpDBRirq-14" value="MQTT&#39;s features" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="510" width="300" height="120" as="geometry" />
+          <mxGeometry x="1110" y="510" width="300" height="150" as="geometry" />
         </mxCell>
         <mxCell id="xJsZIdjVa3uzwpDBRirq-15" value="Request and Receive ROI config" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xJsZIdjVa3uzwpDBRirq-14">
           <mxGeometry y="30" width="300" height="30" as="geometry" />
@@ -311,6 +311,9 @@
         </mxCell>
         <mxCell id="xJsZIdjVa3uzwpDBRirq-17" value="Send Event" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xJsZIdjVa3uzwpDBRirq-14">
           <mxGeometry y="90" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xJsZIdjVa3uzwpDBRirq-19" value="Be able to auto-reconnection" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xJsZIdjVa3uzwpDBRirq-14">
+          <mxGeometry y="120" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
