@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T06:19:29.408Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="4w4JIEZ5Z-drfDodN-4I" version="24.2.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-15T06:19:55.201Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="kjvA9nel7MlF14Nt_VS_" version="24.2.5" type="github" pages="2">
   <diagram name="TopDiagram" id="JaP5Xpi4m5t3rpltjDpk">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -180,13 +180,13 @@
         <mxCell id="ml8Hjj0U2Rhjz_bPokfZ-1" value="MODULE Manager" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="830" y="350" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="ml8Hjj0U2Rhjz_bPokfZ-3" value="EvMaker Module 1&lt;div&gt;(dll)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ml8Hjj0U2Rhjz_bPokfZ-3" value="EvScanner Module 1&lt;div&gt;(dll)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="160" width="184.62" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ml8Hjj0U2Rhjz_bPokfZ-4" value="EvMaker Module 2&lt;div&gt;(dll)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ml8Hjj0U2Rhjz_bPokfZ-4" value="EvScanner Module 2&lt;div&gt;(dll)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="160" width="184.62" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ml8Hjj0U2Rhjz_bPokfZ-7" value="EvMaker Module 3&lt;div&gt;(dll)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ml8Hjj0U2Rhjz_bPokfZ-7" value="EvScanner Module 3&lt;div&gt;(dll)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="900" y="160" width="184.62" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YtWAAHKRzbfctX1yAukA-1" value="Event &lt;br&gt;Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
