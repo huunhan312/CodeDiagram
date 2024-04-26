@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-26T00:58:05.991Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="rPwDN37RXEBzJEW-tLI9" version="24.2.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-26T00:59:44.775Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="2fO3-CjuaMkKzoRc4uk8" version="24.2.5" type="github" pages="3">
   <diagram name="TopDiagram" id="JaP5Xpi4m5t3rpltjDpk">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -340,6 +340,15 @@
         </mxCell>
         <mxCell id="lWE0jNl1LmeHxL_X0wTL-9" value="BBox matching conditions" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="lWE0jNl1LmeHxL_X0wTL-6">
           <mxGeometry y="60" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lWE0jNl1LmeHxL_X0wTL-10" value="Decoder" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="210" y="300" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lWE0jNl1LmeHxL_X0wTL-11" value="Keep decoded picture in GPU, data cooking at GPU as well" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="lWE0jNl1LmeHxL_X0wTL-10">
+          <mxGeometry y="30" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lWE0jNl1LmeHxL_X0wTL-12" value="RTSP max connections" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="lWE0jNl1LmeHxL_X0wTL-10">
+          <mxGeometry y="90" width="340" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
