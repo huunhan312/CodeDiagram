@@ -329,36 +329,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="h3muzYoGTHBOKLBTEOUg" name="Next">
-    <mxGraphModel dx="1687" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="2852" dy="1486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lWE0jNl1LmeHxL_X0wTL-1" value="Detector" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="210" y="50" width="340" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="lWE0jNl1LmeHxL_X0wTL-2" value="Waiting results by thread sync (future)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" parent="lWE0jNl1LmeHxL_X0wTL-1" vertex="1">
-          <mxGeometry y="30" width="340" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lWE0jNl1LmeHxL_X0wTL-5" value="Pipe of data copy &amp;amp; inference" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" parent="lWE0jNl1LmeHxL_X0wTL-1" vertex="1">
-          <mxGeometry y="60" width="340" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lWE0jNl1LmeHxL_X0wTL-6" value="Tracker" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="590" y="50" width="340" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="lWE0jNl1LmeHxL_X0wTL-7" value="Detector&#39;s features in tracking" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" parent="lWE0jNl1LmeHxL_X0wTL-6" vertex="1">
-          <mxGeometry y="30" width="340" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lWE0jNl1LmeHxL_X0wTL-9" value="BBox matching conditions" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" parent="lWE0jNl1LmeHxL_X0wTL-6" vertex="1">
-          <mxGeometry y="60" width="340" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lWE0jNl1LmeHxL_X0wTL-10" value="Decoder" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="210" y="300" width="340" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="lWE0jNl1LmeHxL_X0wTL-11" value="Keep decoded picture in GPU, data cooking at GPU as well" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" parent="lWE0jNl1LmeHxL_X0wTL-10" vertex="1">
-          <mxGeometry y="30" width="340" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lWE0jNl1LmeHxL_X0wTL-12" value="RTSP max connections" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" parent="lWE0jNl1LmeHxL_X0wTL-10" vertex="1">
-          <mxGeometry y="90" width="340" height="30" as="geometry" />
+        <mxCell id="Twakr5ItgyzDs3zl7TeN-1" value="&lt;h1 style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 24px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; Developing process&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 24px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; Huu-Nhan Nguyen&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="390" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
