@@ -354,6 +354,18 @@
         <mxCell id="HfK4hxg6GE5jWI50p6Vi-5" value="&lt;b&gt;App: &lt;/b&gt;is a group of gits to manage application (or a real project)&amp;nbsp;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="HfK4hxg6GE5jWI50p6Vi-1">
           <mxGeometry y="155" width="345" height="45" as="geometry" />
         </mxCell>
+        <mxCell id="HXQ62XY9NBZDz7TOQyRT-1" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;ExtLib&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="485" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="HXQ62XY9NBZDz7TOQyRT-2" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Lib&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="335" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="HXQ62XY9NBZDz7TOQyRT-3" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Test&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="305" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="HXQ62XY9NBZDz7TOQyRT-4" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;App&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="335" width="120" height="85" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
