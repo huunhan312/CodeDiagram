@@ -280,7 +280,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xJsZIdjVa3uzwpDBRirq-6" value="MODULE Manager" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="300" width="320" height="120" as="geometry">
+          <mxGeometry x="1100" y="300" width="320" height="140" as="geometry">
             <mxRectangle x="1110" y="250" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -290,11 +290,11 @@
         <mxCell id="xJsZIdjVa3uzwpDBRirq-8" value="Update ROI config to each module" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="xJsZIdjVa3uzwpDBRirq-6" vertex="1">
           <mxGeometry y="60" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xJsZIdjVa3uzwpDBRirq-9" value="Pushing metadata to each on-processing modules" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="xJsZIdjVa3uzwpDBRirq-6" vertex="1">
-          <mxGeometry y="90" width="320" height="30" as="geometry" />
+        <mxCell id="xJsZIdjVa3uzwpDBRirq-9" value="Pushing metadata to each related modules via function pointer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="xJsZIdjVa3uzwpDBRirq-6" vertex="1">
+          <mxGeometry y="90" width="320" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xJsZIdjVa3uzwpDBRirq-10" value="Event Handler" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="330" width="300" height="120" as="geometry">
+          <mxGeometry x="80" y="330" width="300" height="130" as="geometry">
             <mxRectangle x="100" y="270" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -302,7 +302,7 @@
           <mxGeometry y="30" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xJsZIdjVa3uzwpDBRirq-18" value="Collects and makes event messages, then sends to Master Server (statistics&#39;s events) or to AI-Manager (has-snapshot events)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="xJsZIdjVa3uzwpDBRirq-10" vertex="1">
-          <mxGeometry y="60" width="300" height="60" as="geometry" />
+          <mxGeometry y="60" width="300" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xJsZIdjVa3uzwpDBRirq-14" value="MQTT and eCAL" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1100" y="580" width="320" height="140" as="geometry" />
